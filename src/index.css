@@ -1,0 +1,82 @@
+body, html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px; /* Increase the max-width */
+  background-color: #d4cece;
+  padding: 30px; /* Increase the padding */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+  font-size: 3em; /* Increase heading size */
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  margin-bottom: 20px; /* Increase margin */
+  width: 100%;
+}
+
+.input-group label {
+  margin-bottom: 10px; /* Increase margin */
+  font-weight: bold;
+  font-size: 2em; /* Increase label size */
+}
+
+.input-group input,
+.input-group button {
+  padding: 15px; /* Increase padding */
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100%;
+  font-size: 2em; /* Increase input and button text size */
+}
+
+.input-group input {
+  margin-bottom: 15px; /* Increase margin */
+}
+
+.input-group button {
+  background: linear-gradient(45deg, #6a11cb, #2575fc); /* Gradient background */
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 20px; /* Increase button size */
+  font-size: 2em; /* Increase button text size */
+  border-radius: 10px; /* More rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+  transition: background 0.3s ease; /* Smooth transition */
+}
+
+.input-group button:hover {
+  background: linear-gradient(45deg, #2575fc, #6a11cb); /* Change gradient on hover */
+}
+
+.min-h-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
